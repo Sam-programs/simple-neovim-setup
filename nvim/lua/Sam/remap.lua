@@ -14,8 +14,8 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader><leader>",vim.cmd.so)
 
 vim.keymap.set("n","<leader>w",function()
-vim.cmd.w()
 vim.lsp.buf.format()
+vim.cmd.w()
 end)
 
 vim.keymap.set("n","<leader>m",vim.cmd.make)
