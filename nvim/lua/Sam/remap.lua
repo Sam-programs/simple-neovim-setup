@@ -18,6 +18,13 @@ vim.lsp.buf.format()
 vim.cmd.w()
 end)
 
+vim.keymap.set("n","<leader>q",function()
+vim.lsp.buf.format()
+vim.cmd.wq()
+end)
+
+
+
 vim.keymap.set("n","<leader>m",vim.cmd.make)
 
 
