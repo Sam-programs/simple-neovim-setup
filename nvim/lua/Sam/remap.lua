@@ -35,7 +35,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("x", "p", [["_dP]])
 
 
-vim.keymap.set("v", "y", "\"+Y")
+vim.keymap.set("v", "y", "\"+y")
 vim.keymap.set("n", "y", "\"+Y")
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
