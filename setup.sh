@@ -1,1 +1,1 @@
-cp -r ./nvim/ ~/.config/
+cp -rf ./nvim/ ~/.config/
