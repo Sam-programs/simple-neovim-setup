@@ -57,7 +57,9 @@ return require('packer').startup(function(use)
   
 
   use'vim-airline/vim-airline-themes'
-  
+  if packer_bootstrap then
+    require('packer').sync()
+  end
 
 end)
 
